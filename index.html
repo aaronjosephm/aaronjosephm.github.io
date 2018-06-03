@@ -1,196 +1,234 @@
-	<html lang="en">
-	  <head>
-	  	<meta charset="utf-8">
-	    <title>My playground landing</title>
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	    <link href='style.css' rel='stylesheet'>
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	  </head>
-	  <body>
-	  	
-		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F2F2F0; box-shadow: 1px 1px 1px black;">
-		  <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">-->
-		    <ul class="navbar-nav mr-auto">
-		      <li>
-		    	 <div class="navbar-header">
-			      <a class="navbar-brand" href="#">
-			        <img alt="Brand" src="images/Mednick_symbol.png">
-			      </a>
-			    </div>
-			  </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="aboutus.html">About</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="aboutus.html">Contact</a>
-		      </li>
-		      
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		    </form>
-		  <!--</div> -->
-		</nav>
-	    
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Data Encryption: SipherCatta</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-		<div class="banner">
-			
-			<!--<div class="flex-container">
-			  <div>
-			  	<div id="bg"></div>
-			  	<img src="images/david.jpg" alt="Avatar" class="avatar">
-			  	<h4>Dr. David Mednick</h4>
-			  	
-			  </div>
-			  <div>-->
-			  	<h1>MEDFOOT</h1>
-			  <!--</div>-->
-			  <!--<div></div>-->  
-			<!--</div>-->
-			<p>"Our practice philosophy is to emphasize conservative treatment whenever possible. In prescribing treatment, medication, or surgery, we make every effort to offer the patient alternatives and necessary information so that a proper choice of treatment can be mutually agreed upon."</p>
-            
-		</div>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
 
-		<div id="botban">
-			<div class="flex-container">
-				<div>
-					<img src="images/david.jpg" alt="Avatar" class="avatar">
-					<h4>Dr. David Mednick</h4>
-				</div>
-				<div>
-					<h3>CALL NOW: (408) 262-1188</h3>
-					<h4>Or</h4>
-					<h4>rate/follow us:</h4>
-					<div id="links">
-			          <a href="#"><i class="fa fa-youtube"></i></a>
-			          <a href="#"><i class="fa fa-facebook"></i></a>
-				      <a href="#"><i class="fa fa-twitter"></i></a>
-			          <a href="#"><i class="fa fa-github"></i></a>
-			          <a href="#"><i class="fa fa-yelp"></i></a>
-			          <a href="#"><i class="fa fa-linkedin"></i></a>
-			          <a href="#"><i class="fa fa-google"></i></a>
-				    </div>
-				</div>
-				<div>
-					<ul>
-						<li>Schedule an appointment.</li>
-						<li>Go over payment options.</li>
-						<li>Meet our staff.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<form>
-			<div class="form-row">
-				<div class="form-group col-md-3">
-					<label for="inputEmail4" style="align-content: left">Email</label>
-					<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-				</div>
-				<div class="form-group col-md-3">
-					<label for="inputPassword4">Password</label>
-					<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-				</div>
-			</div>
-			<div class="form-group col-md-6">
-				<label for="inputAddress">Address</label>
-				<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-			</div>
-			<div class="form-group col-md-6">
-				<label for="inputAddress2">Address 2</label>
-				<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-			</div>
-			<div class="form-row">
-				<div class="form-group col-md-2">
-					<label for="inputCity">City</label>
-					<input type="text" class="form-control" id="inputCity">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="inputState">State</label>
-					<select id="inputState" class="form-control">
-						<option selected>Choose...</option>
-						<option>...</option>
-					</select>
-				</div>
-				<div class="form-group col-md-2">
-					<label for="inputZip">Zip</label>
-					<input type="text" class="form-control" id="inputZip">
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="form-check">
-					<input class="form-check-input" type="checkbox" id="gridCheck">
-					<label class="form-check-label" for="gridCheck">
-						Check me out
-					</label>
-				</div>
-			</div>
-			<button type="submit" class="btn btn-primary" style="align-content: left">Sign in</button>
-		</form>
+  <body>
 
 
-		<div class="container">
-	      <div class="row">
-	      	
-	        <div class="col-xs-12 col-sm-6 col-md-4">
 
-		       <div class="card">
-		       	
-	          <img src="images/services.jpg" alt="picture description" width="300">
-	          <div class="card-body">
-	            <h2>Procedures/Services</h2>
-	            <h6>We have a general practice encompassing the full scope of podiatric services from routine foot care to outpatient surgery. Our services include treatment of sports injuries, as well as treatment of foot and leg problems in infants and children. We also emphasize care for diabetic foot.</h6>
-          <!-- div class="card" -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">macOS</a></li>
+      <li><a href="#!">iOS</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">Android</a></li>
+    </ul>
+
+
+    <div class="navbar-fixed">
+
+      <nav>
+        <div class="nav-wrapper" style="background-color: #323643;">
+          <a href="#" class="brand-logo"> SipherCatta</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Downloads<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+        
+
+      </nav>
+    </div>
+
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center green-text">Welcome to the privacy revolution</h1>
+          <div class="row center">
+            <h5 class="header col s12 light" style="color: #CFEE91;">A new way to secure your information, and make sure it doesn't get in the wrong hands.</h5>
+          </div>
+          <div class="row center">
+            <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          </div>
+          <br><br>
+
+        </div>
+      </div>
+        <div class="parallax"><img src="images/cover2.jpg" width="430"></div>
+      </div>
+
+
       
-		      </div>
-		  </div>
-	        </div>
-	        <div class="col-xs-12 col-sm-6 col-md-4">
-		      <div class="card">
-	          <img src="images/finance.jpg" alt="picture description" width="300">
-	          <div class="card-body">
-	            <h2>Financial arrangements</h2>
-	            <h6>We accept most insurances and we are also participating providers from many PPO plans. Please bring your complete insurance information on your first time visit. Financial responsibility of payment is yours</h6>
-		          <!-- div class="card" -->
-			      </div>
-			  </div>
-	        </div>
-	        <div class="col-xs-12 col-sm-6 col-md-4">
-	        	<div class="card">
-		        <img src="images/friendly.jpg" alt="picture description" width="300">
-		        <div class="card-body">
-	            <h2>Call Anytime (408) 262-1188</h2>
-	            <h6>We believe communication is vital. Use the quick links below and the side panel to call our offices in Milpitas, schedule an appointment, ask questions, leave comments, or join us on social networks. You may also reach us via email at info@medfoot.com</h6>
-		        </div>
-		    </div>
-          <!-- div class="card" -->
-	        </div>
-	      </div>
-	  </div>
+      <div class="section" style="background-color: #f7f7f7">
+        <div class="row container">
+          <h2 class="header">SipherCatta</h2>
+          <img src="images/SipherCatta.png" width="200">
+          <p class="grey-text text-darken-3 lighten-3">Learn how the SipherCatta app works. SipherCatta is currently availabale for iPhone, Android, and macOS. Try it free today!</p>
+        </div>
+       
+      <div class="container" style="justify-content: space-around;">       
+        <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
 
-		<div id="footer">
-          <ol class="list-inline">
-          	<li> Check us out </li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-github"></i></a></li>
-          </ol>
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
         </div>
 
-        <div id="botfooter">
-          <h1>THIS IS A BOTTOM FOOTER.</h1>	
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
         </div>
 
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	  </body>
-	</html>
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/cover.jpg" width="430"></div>
+      </div>
+
+
+
+      <div class="section" style="background-color: #f7f7f7">
+        <div class="row container">
+          <h2 class="header">Protect your privacy today</h2>
+          <p class="grey-text text-darken-3 lighten-3">Learn how the SipherCatta app works. SipherCatta is currently availabale for iPhone, Android, and macOS. Try it free today!</p>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card" style="background-color: #606470">
+              <div class="card-content white-text">
+                <span class="card-title">macOS</span>
+                <p>The macOS version of SipherCatta comes in the form of a web browser. To learn more about this check out the instructional page for macOS.</p>
+              </div>
+              <div class="card-action">
+                <i class="material-icons">file_download</i>
+                <a href="#">64-bit</a>
+                <i class="material-icons">file_download</i>
+                <a href="#">32-bit</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card" style="background-color: #606470">
+              <div class="card-content white-text">
+                <span class="card-title">iOS</span>
+                <p>The iOS version of SipherCatta comes in the form of a useful app. To learn more about this click here.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card" style="background-color: #606470">
+              <div class="card-content white-text">
+                <span class="card-title">Android</span>
+                <p>The Android version of SipherCatta comes in the form of a useful app in all flavors. To learn more about this click here.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <form class="col s6">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                <label for="disabled">Disabled</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                This is an inline input field:
+                <div class="input-field inline">
+                  <input id="email_inline" type="email" class="validate">
+                  <label for="email_inline">Email</label>
+                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/cover3.jpg" width="430"></div>
+      </div>
+
+      <footer class="page-footer" style="background-color: #606470">
+          <div class="container" style="background-color: #606470">
+            <div class="row" >
+              <div class="col l6 s12" >
+                <h5 class="white-text">SipherCatta</h5>
+                <p class="grey-text text-lighten-4">Be part of the privacy revolution.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">connect</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!"><img src="images/instagram.svg" width="40"></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/SipherCatta-438815993142804/"><img src="images/facebook.svg" width="40"></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><img src="images/youtube.svg" width="40"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+      
+    </body>
+    </html>
